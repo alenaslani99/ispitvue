@@ -1,14 +1,11 @@
 import { createStore } from 'vuex'
-
+import auth from './auth'
+import songs from './songs'
+import cart from './cart'
 export default createStore({
-  state: {
-  },
-  getters: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
   modules: {
+    auth,
+    songs,
+    cart
   }
 })
